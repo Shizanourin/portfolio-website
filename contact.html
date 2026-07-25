@@ -1,31 +1,146 @@
-<section class="contact">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fb;
+      color: #222;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      padding: 20px 0;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+    nav a {
+      text-decoration: none;
+      color: #1f3a5f;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: 8px;
+      background: #eef4ff;
+      transition: all 0.2s ease;
+    }
+    nav a:hover {
+      background: #1f3a5f;
+      color: white;
+      transform: translateY(-2px);
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    h1, h2 {
+      color: #1f3a5f;
+    }
+    .intro {
+      margin-bottom: 1.5rem;
+      color: #4a5f7a;
+      line-height: 1.7;
+    }
+    .contact-card {
+      display: grid;
+      gap: 1rem;
+      padding: 1.5rem;
+      background: #fafcff;
+      border-radius: 12px;
+      border: 1px solid rgba(31, 58, 95, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+    .contact-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(31, 58, 95, 0.12);
+      border-color: rgba(31, 58, 95, 0.2);
+    }
+    .contact-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 0.8rem 1rem;
+      background: white;
+      border-radius: 10px;
+      border: 1px solid rgba(31, 58, 95, 0.08);
+      transition: background 0.2s ease, border-color 0.2s ease;
+    }
+    .contact-item:hover {
+      background: #eef4ff;
+      border-color: rgba(31, 58, 95, 0.18);
+    }
+    .contact-item strong {
+      color: #1f3a5f;
+      min-width: 120px;
+    }
+    .contact-item a {
+      color: #1f3a5f;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .note {
+      margin-top: 1.5rem;
+      padding: 1.2rem;
+      background: #eef4ff;
+      border-radius: 12px;
+      color: #2f4a6f;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
+  <div class="container">
     <h1>Contact Me</h1>
+    <p class="intro">I'd love to connect! Reach out through any of the channels below, and I'll get back to you soon.</p>
 
-    <p>I'd love to connect! Feel free to reach out through any of the platforms below.</p>
-
-    <div class="contact-info">
-
-        <p><strong>Email:</strong> shizanourin1@gmail.com</p>
-
-        <p><strong>Phone:</strong> +91 7019861460</p>
-
-        <p>
-            <strong>LinkedIn:</strong>
-            <a href="https://linkedin.com/in/shizanourin" target="_blank">
-                linkedin.com/in/shizanourin
-            </a>
-        </p>
-
-        <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/your-github-username" target="_blank">
-                github.com/your-github-username
-            </a>
-        </p>
-
-        <p><strong>Location:</strong> India</p>
-
+    <div class="contact-card">
+      <div class="contact-item">
+        <strong>Email:</strong>
+        <span>shizanourin1@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <strong>Phone:</strong>
+        <span>+91 7019861460</span>
+      </div>
+      <div class="contact-item">
+        <strong>LinkedIn:</strong>
+        <a href="https://linkedin.com/in/shizanourin" target="_blank" rel="noopener noreferrer">linkedin.com/in/shizanourin</a>
+      </div>
+      <div class="contact-item">
+        <strong>GitHub:</strong>
+        <a href="https://github.com/Shizanourin" target="_blank" rel="noopener noreferrer">github.com/Shizanourin</a>
+      </div>
+      <div class="contact-item">
+        <strong>Location:</strong>
+        <span>India</span>
+      </div>
     </div>
 
-</section>
+    <div class="note">
+      Prefer a faster update? Send a message on LinkedIn or GitHub, and I’ll respond quickly. I’m always open to new learning opportunities and collaboration.
+    </div>
+  </div>
+</body>
+</html>
