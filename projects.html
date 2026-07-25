@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f5f7fb;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    h1, h2 {
+      color: #1f3a5f;
+    }
+    .project {
+      border-left: 4px solid #1f3a5f;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1.2rem;
+      background: #fafcff;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    }
+    .project:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+    .tech {
+      color: #4a5f7a;
+      font-weight: bold;
+      margin-top: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Projects</h1>
+    <p>Here are some of my academic and practical projects that reflect my growing interest in cybersecurity, networking, and compliance.</p>
+
+    <div class="project">
+      <h2>Wireshark Traffic Analysis Lab</h2>
+      <p>Captured DNS, HTTP, and TCP packets using Wireshark. Analyzed network traffic to identify protocols, requests, and communication patterns. Investigated suspicious traffic and documented findings.</p>
+      <div class="tech">Tools: Wireshark, Network Analysis, Packet Capture</div>
+    </div>
+
+    <div class="project">
+      <h2>SOC Home Lab</h2>
+      <p>Built a basic SOC lab using VirtualBox with Windows and Linux virtual machines. Practiced log monitoring, alert investigation, and incident triage using Splunk and Windows Event Logs. Investigated authentication events, failed login attempts, and basic security alerts to understand SOC workflows. Documented incident findings and followed basic incident response procedures.</p>
+      <div class="tech">Tools: VirtualBox, Splunk, Windows Event Logs, SOC Practices</div>
+    </div>
+
+    <div class="project">
+      <h2>ISO 27001 Compliance Tracker</h2>
+      <p>Created an ISO 27001 compliance tracker using Microsoft Excel and Google Sheets to organize audit evidence. Reviewed security documentation and mapped compliance requirements against implemented controls. Assisted in maintaining audit-ready documentation and tracking compliance status.</p>
+      <div class="tech">Tools: Microsoft Excel, Google Sheets, Compliance Tracking</div>
+    </div>
+  </div>
+</body>
+</html>
