@@ -4,6 +4,38 @@ body {
     background-color: #f4f4f4;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f3a5f;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #eef4ff;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    background: #1f3a5f;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
 .hero {
     text-align: center;
     padding: 80px 20px;
@@ -24,11 +56,21 @@ body {
     margin: auto;
 }
 
-button {
+.button-link {
+    display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #1f3a5f;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.button-link:hover {
+    background-color: #2f537d;
 }
 /* Contact Section */
 
