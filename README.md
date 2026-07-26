@@ -2,6 +2,8 @@
 
 A personal portfolio website built with HTML and CSS to showcase Shiza's skills, projects, and contact information. The site is designed with a clean modern aesthetic, responsive layout, and consistent navigation across pages.
 
+Live page: https://shizanourin.github.io/portfolio-website/
+
 ## Project Overview
 
 This website serves as a professional portfolio for an aspiring cybersecurity professional. It highlights relevant projects, provides a polished contact page, and uses a welcoming hero section to introduce the user.
